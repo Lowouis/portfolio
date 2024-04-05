@@ -206,12 +206,13 @@ export const skeleton = ({
   return <div className={classNames.join(' ')} style={style} />;
 };
 
-export const setupHotjar = (hotjarConfig: SanitizedHotjar): void => {
-  if (hotjarConfig?.id) {
-    const snippetVersion = hotjarConfig?.snippetVersion || 6;
-    hotjar.initialize(parseInt(hotjarConfig.id), snippetVersion);
-  }
-};
+  export const setupHotjar = (hotjarConfig: SanitizedHotjar): void => {
+    if (hotjarConfig?.id) {
+      const snippetVersion = hotjarConfig?.snippetVersion || 6;
+      // @ts-ignore
+      hotjar.initialize(parseInt(hotjarConfig.id), snippetVersion);
+    }
+  };
 
 export const ga = {
   event(action: string, params: EventParams): void {
