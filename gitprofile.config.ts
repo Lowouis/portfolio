@@ -74,6 +74,9 @@ const CONFIG = {
   skills: [
     'PHP',
     'Java',
+    'Bash',
+    'C',
+    'Python',
     'SpringBoot',
     'Symfony',
     'JS',
