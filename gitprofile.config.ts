@@ -69,7 +69,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://cdn.discordapp.com/attachments/1214271766193508362/1225629988032876615/V.pdf?ex=6621d3e0&is=660f5ee0&hm=29e5a2b810f11e44b243abe24d726819f468d47361b64c89cee2ae8d87c13eb8&', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -151,11 +151,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'black',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
