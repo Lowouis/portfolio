@@ -59,7 +59,7 @@ const CONFIG = {
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'louisguritaperso',
+    medium: 'louisgurita',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
