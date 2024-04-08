@@ -30,7 +30,6 @@ const CONFIG = {
           'Lowouis/tds-web-alt-2023',
           'Lowouis/mvc-nodejs-login',
           'Lowouis/netflix-clone-react',
-          'Lowouis/folio',
           'Lowouis/BoatWar',
           'Lowouis/ricochet-robot',
           'Lowouis/Bataille-Naval',
